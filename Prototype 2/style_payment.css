@@ -1,0 +1,86 @@
+h1{
+    text-align: center;
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
+    color: green;
+    font-size: 80px;
+
+  }
+
+body{
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+    background-position: center; 
+}
+
+.payment-page{
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+
+
+.form{
+    position: relative;
+    z-index: 1;
+    background: rgba(0, 128, 0, 0.8);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+
+.logo_2{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    top: -170px;
+    left: calc(50% - 80px);
+}
+
+.form select{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: white;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    color:green;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+.form p{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+
+.form button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background:darkred;
+    width: 100%;
+    border: 5;
+    padding: 10px;
+    color:floralwhite;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.form a {
+    color: floralwhite;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.form button:hover,.form button:active{
+    background: red;
+}

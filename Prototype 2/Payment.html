@@ -1,0 +1,37 @@
+<!DOCTYPE = html>
+<html>
+    <head>
+        <title>Payment</title>
+            <link rel="stylesheet" href="style_payment.css">
+    </head>
+    <body>
+        <h1>Payment</h1>
+        <div class="payment-page">
+        <div class="form">
+            <img src="pizzzzza.png" class="logo_2">
+            <form class="payment-form">
+                <p>Select Payment</p>
+                <select id = "payment">
+                    <option value = "Credit_Debit">Credit/Debit</option>
+                    <option value = "Cash">Cash</option>
+                    <option value = "Check">Check</option>
+                </select>
+                <button type = "button" id = "continue">Continue</button>
+                <h2></h2>
+                <button><a href="OrderCanceled.html">Cancel Order</a></button>
+
+                <script>
+                    const map = {
+                        Credit_Debit: 'Credit_Debit.html'
+                        ,Cash: 'Confirmation.html'
+                        ,Check: 'Confirmation.html'
+                    }
+                    document.getElementById('continue').addEventListener('click', () =>
+                        location.href = map[document.getElementById('payment').value])
+                </script>
+                
+            </form>
+        </div>
+        </div>
+    </body>
+</html>

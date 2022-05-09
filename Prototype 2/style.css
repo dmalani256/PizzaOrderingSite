@@ -1,0 +1,83 @@
+h1{
+    text-align: center;
+    font-family: "Brush Script MT", "Brush Script Std", cursive;
+    color: green;
+    font-size: 70px;
+
+  }
+body{
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+    background-position: center; 
+}
+
+.login-page{
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+.logo{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    top: -170px;
+    left: calc(50% - 80px);
+}
+
+.form{
+    position: relative;
+    z-index: 1;
+    background: rgba(0, 128, 0, 0.8);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+
+.form input{
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: white;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    color:green;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.form button{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background:darkred;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color:floralwhite;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.form button:hover,.form button:active{
+    background: red;
+}
+
+.form .message{
+    margin: 15px 0 0;
+    color: white;
+    font-size: 15px;
+}
+
+.form .message a{
+    color: white;
+    text-decoration: underline;
+}
+
+.form .register-form{
+    display: none;
+}
+

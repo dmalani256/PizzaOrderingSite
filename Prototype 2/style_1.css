@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+    font-family: "Brush Script MT","Brush Script Std",cursive;
+    color: green;
+    font-size: 70px;
+}
+h2{
+    text-align: center;
+    font-family: "Andale Mono",monospace;
+    font-style: oblique;
+    color: darkred;
+    font-size: 40px;
+}
+
+body{
+    background-color: white;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.form button{
+    font-family: "Roboto",sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: darkred;
+    width: 25%;
+    border: 0;
+    padding: 15px;
+    color: floralwhite;
+    font-size: 15px;
+    cursor: pointer;
+}
+.form a {
+    color: floralwhite;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.order{
+    position: relative;
+    z-index: 1;
+    background: green;
+    border-color: greenyellow;
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px black;
+    max-width: 360px;
+
+    margin: 0 auto 20px;
+    padding: 20px;
+    text-align: left;
+    color: white;
+    text-shadow: 2px 2px #0f680fe1
+}
